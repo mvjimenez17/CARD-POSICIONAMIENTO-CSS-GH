@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --color--fondo:silver;
+    --color--texto: #f2f2f2;
+    --color--pantalon: #235CB3;
+    --color--boton:#00FF00;
+    --color--drop: #FFD700;
+    --color--title: #DC143C;
+    --background-image: linear-gradient( 135deg, #e990dc 10%, #ef42d2b4 100%);
+    
+
+}
+
+body{
+    font-family: 'Mochiy Pop One', sans-serif;
+    background-image: var(--background-image);
+    
+}
+
+.img{
+    width: 100%;
+}
+
+.card{
+    width: 320px;
+    margin: 100px auto;
+    background-color: var(--color--pantalon);
+    box-shadow: 10px 10px 20px -6px black;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.card__figure{
+    position: relative;
+    background-color: var(--color--drop);
+    height: 300px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.card__character{
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    filter: drop-shadow( 5px 10px );
+    -webkit-filter: drop-shadow( 5px 5px 10px var(--color--boton));
+
+}
+
+.title{
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+    color: var(--color--title);
+}
+
+.paragraph{
+    color: var(--color--texto);
+    line-height: 1.5rem;
+    text-shadow: 2px 2px 8px black;
+    margin-bottom: 24px;
+}
+
+.card__text{
+padding: 2rem;
+width: 100%;
+margin: 0 auto;
+}
+
+.cta{
+    display: block;
+    /* width: 100%; */
+    background-color: var(--color--boton);
+    color: var(--color--title);
+    text-decoration: none;
+    padding: 1rem 0;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+
+
+
